@@ -1,81 +1,78 @@
 # 🥪 Five Star Delis - Hacktoberfest Project
 
-Welcome to **Five Star Delis**: a Hacktoberfest project aimed at providing NYC delis with a modern, streamlined tool for generating their own static brochure websites. We'll be building a **full-stack Rust/Yew** application focused on clean code, modularity, and performance.
-
-Our goal is to have a fully functional, polished MVP by the end of four weeks — driven by robust development, testing, and community feedback.
+Welcome to **Five Star Delis**: a Hacktoberfest project dedicated to empowering NYC delis with modern, easy-to-use brochure websites. We're building a **full-stack Rust/Yew** application that focuses on clean code, modularity, and high performance, aiming for an MVP that's robust, polished, and ready for deli owners to use by the end of four weeks.
 
 ## 🚀 Project Objectives
 
 ### Week 1: Project Kickoff & Foundations
-- **Introduction & Overview**: Discuss the project architecture, development roadmap, and project goals.
-- **Environment Setup**: Configure your local development environment with Rust, Yew, and all necessary dependencies. Ensure proper versioning and reproducibility.
-- **Data Model Implementation**: Implement core data structures, such as `Bodega`, `FeatureGroup`, and `HoursTable`. Begin building out the foundation of the application logic.
-- **UI Scaffolding**: Develop the basic structure in Yew, including form layout, navigation, and component hierarchies.
-- **Version Control & Contribution Guidelines**: Set up repository standards for branching, code style, and PR review processes. Efficient Git workflows are critical.
-- **Discord Setup**: Join the project-specific Discord channel for streamlined communication, collaboration, and technical discussions.
+- **Introduction & Overview**: Discuss project architecture, development roadmap, and objectives.
+- **Environment Setup**: Configure your development environment with Rust, Yew, and all necessary dependencies for reproducibility and version control.
+- **Data Model Implementation**: Implement core data structures (`Bodega`, `FeatureGroup`, `HoursTable`), laying down the foundation for application logic.
+- **UI Scaffolding**: Develop the basic Yew structure, including form layouts, navigation, and component hierarchies.
+- **Version Control & Contribution Guidelines**: Set up repository standards for branching, code style, and PR reviews to ensure smooth collaboration.
+- **Discord Setup**: Join our project Discord for streamlined communication and discussions.
 
-*By the end of Week 1, we aim to have the groundwork established for a modular Yew-based application with a clear path forward.*
+*By the end of Week 1, the groundwork will be laid for a modular Yew-based application with a clear development path.*
 
 ### Week 2: Developing Core UI & Site Generation
-- **Form Development for Deli Data**: Design and implement form components for customizing a deli's website (e.g., hours, features, descriptions).
-- **Data Model/UI Integration**: Establish bi-directional data flow between the UI and Rust structs, ensuring real-time updates to `Bodega` data models.
-- **Preview Renderer**: Build a live preview pane for visualizing static site changes as data is input.
-- **Static Site Generation**: Implement functionality to export form data into clean, SEO-friendly HTML.
+- **Form Development for Deli Data**: Design and implement form components for customizing a deli’s online profile.
+- **Data Model/UI Integration**: Establish bidirectional data flow between UI components and Rust structs, ensuring real-time updates to `Bodega` models.
+- **Preview Renderer**: Create a live preview pane to visualize static site changes as data is updated.
+- **Static Site Generation**: Implement functionality to export form data into clean, SEO-optimized HTML.
 
-*By the end of Week 2, participants should be able to input data into a form and generate a corresponding static site.*
+*By Week 2's end, participants should be able to input form data and generate a functional static site.*
 
 ### Week 3: Styling, Hosting, & MVP Rollout
-- **Styling & Design Refinement**: Apply modern, professional styles to the UI using tools like **Tailwind CSS**. Aim for a responsive, user-focused design to fit contemporary convenience store aesthetics.
-- **Domain & Subdomain Support**: Implement routing logic for either custom domains or subdomains (e.g., `bedforddeli.fivestardelis.com`).
-- **Map View for Member Delis**: Create a centralized view on `fivestardelis.com` with map-based visualizations of all member delis.
-- **Initial Testing & Feedback**: Start testing the MVP with mock data, focusing on usability, edge cases, and UX refinement.
+- **Styling & Design Refinement**: Utilize tools like **Tailwind CSS** for a responsive, user-friendly design that matches the deli aesthetic.
+- **Domain & Subdomain Support**: Implement routing for custom domains and subdomains (e.g., `bedforddeli.fivestardelis.com`).
+- **Map View for Member Delis**: Build a centralized map-based view on `fivestardelis.com` showcasing all member delis.
+- **Initial Testing & Feedback**: Start testing the MVP with mock data to refine usability and address edge cases.
 
-*By the end of Week 3, the MVP will be ready for real-world testing with key functionality in place.*
+*By Week 3, the MVP should be ready for real-world testing with core features in place.*
 
 ### Week 4: Polishing, Testing, & Finalization
-- **Bug Fixes & Refinements**: Address issues found during testing, including UI/UX enhancements and performance tuning.
-- **Optimize Static Site Generation**: Ensure that generated HTML/CSS is performant, semantic, and accessible.
-- **Map Enhancements & Listing Details**: Improve the map-based listing view with additional interactivity (e.g., tooltips, detailed info on hover/click).
-- **Documentation & User Guide**: Draft technical documentation, contributing guides, and user manuals for deli owners.
-- **Final Demonstration & Showcasing**: Present the polished MVP with full functionality, from form input to generated static site.
+- **Bug Fixes & Refinements**: Address feedback from testing, enhance UI/UX, and optimize performance.
+- **Optimize Static Site Generation**: Ensure generated HTML/CSS is performant, semantic, and accessible.
+- **Map Enhancements & Listing Details**: Improve the map-based listing with interactivity (tooltips, detailed info on hover/click).
+- **Documentation & User Guide**: Write comprehensive technical documentation and user guides for both developers and deli owners.
+- **Final Demonstration & Showcasing**: Present the fully functional MVP, from form input to live static site generation.
 
-*By the end of Week 4, we expect to have a polished, production-ready tool, ready for deli owners to utilize.*
+*By the end of Week 4, we expect to have a production-ready tool for deli owners.*
 
 ## 📋 Participation & Contribution
-- **Technical Contributors**: We need senior engineers comfortable with Rust and Yew, familiar with full-stack development, and capable of contributing to both front-end and back-end functionality.
-- **Non-Technical Participants**: In addition to code contributions, we're also looking for individuals who can assist with:
-  - **UI/UX Design**: Skilled designers who can refine the look and feel of the platform.
-  - **Product Testing & QA**: Participants who can stress-test the application, identify edge cases, and provide feedback on functionality.
-  - **User Research & Outreach**: Individuals who can connect with deli owners, understand their needs, and advocate for real-world requirements.
+- **Technical Contributors**: We're looking for engineers who are comfortable with Rust and Yew, and can contribute to both the front-end and back-end. Experience with full-stack development is a plus.
+- **Non-Technical Participants**: Contributions beyond code are highly valued:
+  - **UI/UX Design**: Help refine the platform's look and feel.
+  - **Product Testing & QA**: Stress-test the app, identify edge cases, and provide functional feedback.
+  - **User Research & Outreach**: Engage with deli owners to understand their needs and advocate for user-centric features.
 
-If your skills lie outside the technical realm, there is still an opportunity to make a meaningful contribution. 
+If your skills lie outside the technical realm, your insights and feedback can greatly enhance the project!
 
 ## 🛠 Tech Stack & Tools
-- **Rust**: Back-end and logic for data models, handling static site generation.
-- **Yew**: Modern front-end framework for building reactive web components in Rust.
-- **Tailwind CSS** (or similar): Styling framework for responsive and contemporary UI design.
-- **Hosting & Domain Management**: Static site generation with the capability to support custom domains or subdomains on `fivestardelis.com`.
+- **Rust**: For back-end logic and data model handling.
+- **Yew**: A modern front-end framework for building interactive web components in Rust.
+- **Tailwind CSS** (or similar): For responsive, contemporary UI design.
+- **Hosting & Domain Management**: Static site generation with custom domain/subdomain support on `fivestardelis.com`.
 
 ## 🎯 Key Features to Implement
-1. **Customizable Deli Profiles**: Easily define hours, features, and descriptions for a deli.
+1. **Customizable Deli Profiles**: Simple forms to define hours, features, and descriptions.
 2. **Static Site Generation**: Generate clean, responsive HTML/CSS based on user input.
-3. **Dynamic, Map-Based View of Members**: Visualize all registered delis on an NYC map with one listing per block.
-4. **Modern, Contemporary UI**: Design language that appeals to the energetic, convenience-based consumer.
-5. **Exclusive Listing on fivestardelis.com**: Each block in NYC will have one deli representative, adding a sense of exclusivity.
+3. **Dynamic Map View of Delis**: Visualize all member delis on an NYC map with exclusive block representation.
+4. **Modern, Engaging UI**: A design aesthetic that appeals to vibrant, convenience-focused consumers.
+5. **Exclusive Listings**: Each NYC block will feature one deli, providing exclusivity and visibility.
 
 ## 💬 Communication & Support
-Join our **Discord channel** for technical discussions, announcements, and real-time collaboration. Our weekly 2-hour coding sessions in Bed-Stuy will also provide a focused environment for building and refining the product.
+Join our **Discord channel** for announcements, real-time discussions, and collaboration. We also host weekly 2-hour coding sessions in Bed-Stuy to build and refine the product together.
 
 ## 🤝 Contributing & Issues
 To get started:
-- Read the `CONTRIBUTING.md` guide for setup instructions, code style, and submission guidelines.
-- Check the issue tracker for available tasks. We have labeled issues by difficulty and type to help you find the best fit for your skillset.
-- Participate in our weekly sessions to learn, contribute, and work alongside others.
+- Check the issue tracker for available tasks, labeled by difficulty and type to match your skillset.
+- Participate in our weekly sessions to code, learn, and collaborate.
 
 ## 🎉 Hacktoberfest & Resources
-This project is part of **Hacktoberfest 2024**, an initiative to encourage open-source contributions. We adhere to all Hacktoberfest guidelines and welcome valid pull requests that align with our contribution rules. For more information:
+This project is part of **Hacktoberfest 2024**, celebrating open-source contributions. We adhere to all Hacktoberfest guidelines and welcome pull requests aligned with our contribution rules. For more information:
 - **[Official Hacktoberfest Site](https://hacktoberfest.com)**
 - **[Hacktoberfest Rules & FAQs](https://hacktoberfest.com/faq)**
 - **[GitHub Code of Conduct](https://docs.github.com/en/github/site-policy/github-community-code-of-conduct)**
 
-Let's build something truly valuable for NYC's delis, creating an open-source tool that bridges the gap between local businesses and modern technology.
+Together, let's build an impactful tool that bridges local NYC delis with modern technology.
